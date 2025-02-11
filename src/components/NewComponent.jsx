@@ -2,7 +2,7 @@ import React from 'react';
 import "./NewComponent.css";
 
 const NewComponent = () => {
-  const isGerente = true;
+  const isGerente = false;
 
   return (
     <div>

@@ -1,5 +1,4 @@
 import React from 'react'
-import style from './OutroComponent.module.css'
 
 const OutroComponent = () => {
   return (

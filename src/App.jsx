@@ -3,7 +3,9 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import MyComponent from './components/MyComponent'
-import OutroComponent from './components/OutroComponent'
+import ShowEvents from './components/ShowEvents'
+import TestUseState from './components/TestUseState'
+import UseList from './components/UseList'
 
 function App() {
 
@@ -11,7 +13,11 @@ function App() {
     <>
       <h1>Sou foda</h1>
       <p>Lore lore lore lore lore lore lore lore lore lore lore lore lore lore lore lore lore lore lore lore lore lore lore lore lore lore lore lore lore lore lore lore lore lore lore lore lore lore lore lore lore lore lore lore lore lore lore lore lore lore lore</p>
-      <MyComponent/>
+      
+      <MyComponent />
+      <ShowEvents />
+      <TestUseState/>
+      <UseList/>
     </>
   )
 }
