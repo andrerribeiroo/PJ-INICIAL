@@ -13,7 +13,7 @@ const UseList = () => {
     <div>
       <h3>Lista</h3>
       <ul style={{ listStyleType: "none", margin: "0px", padding: "0px" }}>
-        {list.map((valorItem, numeroIndice) => ( //
+        {list.map((valorItem, numeroIndice) => (
           <li key={numeroIndice}>
             Nome {valorItem} : {numeroIndice}
           </li>
