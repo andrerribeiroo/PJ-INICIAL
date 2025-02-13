@@ -1,15 +1,15 @@
 import React from 'react'
 import style from './UseProps.module.css'
 
-const UseProps = () => {
+const UseProps = (props) => {
 
-    const imgPadrao = "https://voxnews.com.br/wp-content/uploads/2017/04/unnamed.png"
+    console.log(props);
 
     return (
     <div className={style.card}>
-        <img src={imgPadrao} alt="" />
-      <h4>Titulo do Card</h4>
-      <p>Descrição do Card</p>
+        <img src={props.imagem} alt="" />
+      <h4>{props.titulo}</h4>
+      <p>{props.descricao}</p>
       <button className={style.btn}>Visualizar</button>
     </div>
   )
