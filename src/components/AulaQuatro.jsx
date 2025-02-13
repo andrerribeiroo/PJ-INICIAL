@@ -4,9 +4,10 @@ import style from "./AulaQuatro.module.css";
 
 const AulaQuatro = () => {
   return (
-    <div>
+    <div className={style.container}>
+      <h1>Cards Incríveis</h1>
       <div className={style.cardArea}>
-        <h1>Cards Incríveis</h1>
+        <UseProps />
         <UseProps />
         <UseProps />
         <UseProps />

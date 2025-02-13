@@ -1,7 +1,8 @@
-img{
-    width: 100%;
+.img{
+    width: 80%;
     height: 200px;
     border-radius: 3px;
+    margin-top: 20px;
 }
 .card{
     width: 300px;

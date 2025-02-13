@@ -7,10 +7,10 @@ const UseProps = () => {
 
     return (
     <div className={style.card}>
-        <img src={imgPadrao} alt="" />
+        <img src={imgPadrao} alt="" className={style.img}/>
       <h4>Titulo do Card</h4>
       <p>Descrição do Card</p>
-      <button className={style.btn}>Visualizar</button>
+      <button className={style.botao}>Visualizar</button>
     </div>
   )
 }
