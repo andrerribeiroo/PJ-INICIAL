@@ -15,4 +15,4 @@ const UseProps = (props) => {
   )
 }
 
-export default UseProps
+export default UseProps;
