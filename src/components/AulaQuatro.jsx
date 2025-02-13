@@ -3,16 +3,6 @@ import UseProps from "./UseProps";
 import styles from "./AulaQuatro.module.css";
 
 const AulaQuatro = () => {
-<<<<<<< Updated upstream
-=======
-  return (
-    <div>
-      <h1>Cards incriveis</h1>
-      <UseProps/>
-    </div>
-  )
-}
->>>>>>> Stashed changes
 
    const imgPadrao = "https://voxnews.com.br/wp-content/uploads/2017/04/unnamed.png";
 
