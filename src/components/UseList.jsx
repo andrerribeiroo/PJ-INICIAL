@@ -3,7 +3,7 @@ import { useState } from "react";
 const UseList = () => {
   const [list] = useState(["Pedro ", "TIago ", "Marquito "]);
 
-  const [usuarios] = useState([ //Criar um array com nome e login de varios usuarios
+  const [usuarios] = useState([ //Criar um array com nome e login de varios usuarios 
     { id: 1, nome: "Pedro", login: "pedrodbr@gmail.com" },
     { id: 2, nome: "Tiago", login: "tiago@gmail.com" }, 
     { id: 3, nome: "Marquito", login: "marquito@gmail.com" },
