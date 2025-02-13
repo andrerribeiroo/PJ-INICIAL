@@ -1,6 +1,3 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 import MyComponent from "./components/MyComponent";
 import ShowEvents from "./components/ShowEvents";
@@ -11,8 +8,8 @@ import AulaQuatro from "./components/AulaQuatro";
 function App() {
   return (
     <>
-      <h1>Sou foda</h1>
-      <p>
+      <h1 style={{color:"white"}}>Testando KKKKKKKKKKKKKKKK</h1>
+      <p style={{color:"white"}}>
         Lore lore lore lore lore lore lore lore lore lore lore lore lore lore
         lore lore lore lore lore lore lore lore lore lore lore lore lore lore
         lore lore lore lore lore lore lore lore lore lore lore lore lore lore

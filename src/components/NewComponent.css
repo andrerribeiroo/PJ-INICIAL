@@ -4,18 +4,18 @@
     transition: 0.3s;
     font-weight: 700px;
     border: 5px;
-    color: red;
+    color: white;
 }
 #cr7:hover{
     border-color: red;
     transform: scale(1.1);
-    Color: white;
+    Color: yellow;
     padding: 0px;
 }
-#fotocr7{
+#fotoneymar{
     border-radius: 50px;
     border-color: red;
 }
-#fotocr7:hover{
+#fotoneymar:hover{
     border-color: red;
 }

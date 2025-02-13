@@ -9,12 +9,12 @@ const NewComponent = () => {
       <h1 
         style={ isGerente 
           ? { color: "aquamarine", backgroundColor: "Pink" } 
-          : { color: "red", backgroundColor: "lightblue" } }
+          : { color: "white", backgroundColor: "lightblue" } }
       >
         Aqui vem uma estilização
       </h1>
-      <h3 id='cr7' style={{ fontSize: "90px", margin: "0px" }}>CR7</h3>
-      <img id='fotocr7' src="CristianoRonaldo.webp" alt="Cristiano Ronaldo" />
+      <h3 id='cr7' style={{ fontSize: "90px", margin: "0px" }}>Neymar</h3>
+      <img style={{height:"700px", width:"auto"}} id='fotoneymar' src="neymar.webp" alt="Neymar" />
     </div>
   );
 };

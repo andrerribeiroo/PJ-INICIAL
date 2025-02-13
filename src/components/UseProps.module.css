@@ -7,10 +7,10 @@ img{
     width: 300px;
     height: 500px;
     padding: 10px;
-    border: 3px solid #ea9000;
+    border: 3px solid aquamarine;
     border-radius: 5px;
     margin: 10px;
 }
 .botao{
-    background-color: orange;
+    background-color: aqua;
 }

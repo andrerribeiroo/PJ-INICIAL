@@ -13,7 +13,7 @@ const TestUseState = () => {
       <h2>Teste de troca de numero sem use state</h2> {/*titulo*/}
       <h3>Valo atual: {num}</h3>{/*titulo para mostar o valor da variavel num*/}
       <button
-        style={{ backgroundColor: "orange", color: "black" }}
+        style={{ backgroundColor: "yellow", color: "black" }}
         onClick={() => ((num = 20), console.log(num))}
       > {/*Style para estilizar e função de flecha para mostrar a variavel num*/}
         Trocar
